@@ -1,11 +1,11 @@
 '''@author: Sri Hari S'''
 
 from flask import Flask,request
+from flasgger import Swagger
 import pandas as pd
 import numpy as np
 import pickle
 import flasgger
-from flasgger import Swagger
 
 app=Flask(__name__)
 Swagger(app)
